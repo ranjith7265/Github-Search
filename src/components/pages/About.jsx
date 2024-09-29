@@ -70,6 +70,11 @@ function About() {
 						For managing global state efficiently, providing a scalable
 						structure for handling complex state logic within the app.
 					</li>
+					<li>
+						<span className="font-bold">Theme: </span>
+						DaisyUI’s Cyberpunk theme to create a bold, futuristic look for the
+						app’s user interface.
+					</li>
 				</ul>
 			</div>
 			<div className="mt-6">
