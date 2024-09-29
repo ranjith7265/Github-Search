@@ -1,9 +1,13 @@
 import React from 'react'
+import UserLists from '../users/UserLists'
+import UserSearch from '../users/UserSearch'
+
 
 function Home() {
   return (
     <div>
-      Home
+      <UserSearch />
+      <UserLists />
     </div>
   )
 }
