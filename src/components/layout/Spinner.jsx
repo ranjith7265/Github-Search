@@ -1,5 +1,5 @@
 import React from "react";
-import loadingGIF from "../../assets/loading.gif"
+import loadingGIF from "../../assets/loading.gif";
 
 function Spinner() {
 	return (

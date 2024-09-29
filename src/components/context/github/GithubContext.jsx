@@ -32,7 +32,9 @@ export const GithubProvider = ({ children }) => {
 			per_page: 10,
 		});
 		setLoading();
-		const resp = await fetch(`https://api.github.com/users/${login}/repos?${params}`);
+		const resp = await fetch(
+			`https://api.github.com/users/${login}/repos?${params}`
+		);
 		const data = await resp.json();
 		dispatch({
 			type: "GET_USER_REPOS",

@@ -12,7 +12,7 @@ function UserSearch() {
 		if (text === "") {
 			setAlert("Please enter search value!!", "error");
 		} else {
-			searchUsers(text)
+			searchUsers(text);
 			setText("");
 		}
 	};
@@ -39,7 +39,9 @@ function UserSearch() {
 				</div>
 				{users.length > 0 && (
 					<div>
-						<button className="btn btn-ghost btn-lg mt-2" onClick={clearUsers}>Clear</button>
+						<button className="btn btn-ghost btn-lg mt-2" onClick={clearUsers}>
+							Clear
+						</button>
 					</div>
 				)}
 			</form>

@@ -5,7 +5,6 @@ import GithubContext from "../context/github/GithubContext";
 import Spinner from "../layout/Spinner";
 import UserRepoList from "./UserRepoList";
 
-
 function User() {
 	const { getUser, user, loading, repos, userRepos } =
 		useContext(GithubContext);
@@ -31,7 +30,7 @@ function User() {
 		getUser(login);
 		userRepos(login);
 	}, []);
-	console.log(repos)
+	console.log(repos);
 	if (loading) {
 		return <Spinner />;
 	} else {
