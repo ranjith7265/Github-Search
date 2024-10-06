@@ -16,7 +16,7 @@ function App() {
 			<AlertProvider>
 				<Router>
 					<div className="flex flex-col justify-between h-screen">
-						<Navbar title={"Github-Finder"} />
+						<Navbar title={"Github-Search"} />
 						<div className="container px-3 pb-20 mx-auto">
 							<Alert />
 							<Routes>
