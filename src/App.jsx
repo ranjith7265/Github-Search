@@ -8,7 +8,6 @@ import User from "./components/users/User";
 import Alert from "./components/layout/Alert";
 import { GithubProvider } from "./components/context/github/GithubContext";
 import { AlertProvider } from "./components/context/alert/AlertContext";
-import "./App.css";
 
 function App() {
 	return (
