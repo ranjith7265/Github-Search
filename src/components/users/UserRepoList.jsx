@@ -1,4 +1,3 @@
-import React from "react";
 import ReposItem from "./ReposItem";
 import PropTypes from "prop-types";
 

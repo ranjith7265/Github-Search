@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer() {
 	return (
 		<footer className="footer p-10 text-primary-content footer-center">

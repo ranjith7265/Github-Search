@@ -1,4 +1,3 @@
-import React from "react";
 import UserLists from "../users/UserLists";
 import UserSearch from "../users/UserSearch";
 

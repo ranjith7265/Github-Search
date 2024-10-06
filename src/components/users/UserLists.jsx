@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import UserItem from "./UserItem";
 import GithubContext from "../context/github/GithubContext.jsx";
 import Spinner from "../layout/Spinner.jsx";

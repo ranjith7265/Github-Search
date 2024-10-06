@@ -1,5 +1,4 @@
-import React from "react";
-import { FaUser, FaReact, FaGithub } from "react-icons/fa";
+import { FaReact, FaGithub } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiDaisyui } from "react-icons/si";
 
