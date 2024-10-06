@@ -8,13 +8,13 @@ function About() {
 		<div className="w-full mx-auto">
 			<div>
 				<h2 className="text-3xl font-semibold mb-4">
-					Welcome to GitHub Finder!
+					Welcome to GitHub Search!
 				</h2>
 				<p>
 					This project is a simple and intuitive web application that allows
 					users to search for GitHub profiles and repositories using the GitHub
 					API. Whether you're looking for developers, organizations, or
-					exploring interesting repositories, GitHub Finder provides a seamless
+					exploring interesting repositories, GitHub Search provides a seamless
 					experience for accessing information directly from GitHub.
 				</p>
 			</div>
@@ -54,7 +54,7 @@ function About() {
 			</div>
 			<div>
 				<h2 className="text-2xl font-bold mt-6">Key Features:</h2>
-				<ul class="space-y-2 list-none list-inside mt-4">
+				<ul className="space-y-2 list-none list-inside mt-4">
 					<li>
 						<span className="font-bold">Profile Search: </span> Find GitHub
 						users by username, displaying their key information like bio,
